@@ -12,44 +12,44 @@ function App() {
           Contact</a>
       </div>
       <div className="p-4 my-32 flex flex-col justify-center space-y-6 text-center mx-auto md:w-5/12 md:my-24">
-        <img src='./portfolio/images/profile.png' alt="profile" className="h-48 w-48 self-center object-cover" />
+        <img src='./images/profile.png' alt="profile" className="h-48 w-48 self-center object-cover" />
         <p className={`font-medium text-3xl font-playfairDisplay md:text-5xl md:font-semibold`}>Hi, I&apos;m Ruchika</p>
         <p className="text-[#5F6B7B] text-medium text-center font-light px-4">
           <span className="font-medium">Product Designer </span>
           | Love for learning and designing intuitive, equitable, enjoyable and useful products keeps me going. </p>
       </div>
       <div className="my-6">
-        <img src='./portfolio/images/curvedLinesForWeb.png' alt="curved-lines" className="w-full h-80" />
+        <img src='./images/curvedLinesForWeb.png' alt="curved-lines" className="w-full h-80" />
         <div className="-mt-56 p-4 space-y-8 md:flex-row">
           <p className="font-medium text-2xl text-center">FEATURED PROJECTS</p>
           <div className="px-4 md:grid md:grid-cols-3 md:gap-6">
             <a href={'https://www.notion.so/Redesign-Onboarding-of-Learning-Platform-Mechanism-1b622aa16b9b494f80d95fb279f25ce1'} target="_blank" rel="noreferrer">
               <div className="my-6 cursor-pointer">
-                <img src={'./portfolio/images/redesignOnboarding.png'} alt="redesign-onboarding" className="self-center object-cover" />
+                <img src={'./images/redesignOnboarding.png'} alt="redesign-onboarding" className="self-center object-cover" />
                 <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Redesign Onboarding for a Learning Platform Mechanism</span> | Scale up the conversion rates in just 6 days</p>
               </div>
             </a>
             <a href={'https://www.notion.so/Design-International-Logistics-Web-Application-a2656717d8684d5c9cd88ef0dd5a922b'} target="_blank" rel="noreferrer">
               <div className="my-6 cursor-pointer">
-                <img src={'./portfolio/images/internationalLogisticsPlatform.png'} alt="redesign-onboarding" className="self-center object-cover" />
+                <img src={'./images/internationalLogisticsPlatform.png'} alt="redesign-onboarding" className="self-center object-cover" />
                 <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Design International Logistics Platform</span> | Simplifying the bidding process for shippers and forwarders</p>
               </div>
             </a>
             <a href={'https://www.notion.so/Redesign-Website-UX-d675ed13127046ef91160da742a1f75a'} target="_blank" rel="noreferrer">
               <div className="my-6 cursor-pointer">
-                <img src={'./portfolio/images/redesignUX.png'} alt="redesign-onboarding" className="self-center object-cover" />
+                <img src={'./images/redesignUX.png'} alt="redesign-onboarding" className="self-center object-cover" />
                 <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Redesign UX of website</span> | To 2x the conversion rates </p>
               </div>
             </a>
             <a href={'https://www.notion.so/Loud-Eco-Friendly-Branding-37c9b74067d944e88e85202efc7287ba'} target="_blank" rel="noreferrer">
               <div className="my-6 cursor-pointer md:mt-0">
-                <img src={'./portfolio/images/loudEcoFriendly.png'} alt="redesign-onboarding" className="self-center object-cover" />
+                <img src={'./images/loudEcoFriendly.png'} alt="redesign-onboarding" className="self-center object-cover" />
                 <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Loud Eco-Friendly Branding</span> | Creating brand identity for sustainable products through designs </p>
               </div>
             </a>
             <a href={'https://www.notion.so/Creative-Graphics-and-Motions-2937cb4f86cc4c15824c1142e3ecf4a5'} target="_blank" rel="noreferrer">
               <div className="my-6 cursor-pointer md:mt-0">
-                <img src={'./portfolio/images/graphicMotionDesign.png'} alt="redesign-onboarding" className="self-center object-cover" />
+                <img src={'./images/graphicMotionDesign.png'} alt="redesign-onboarding" className="self-center object-cover" />
                 <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Creative Graphic Motion Designs</span> | Create brand awareness through offline campaigns and social media </p>
               </div>
             </a>
@@ -65,12 +65,12 @@ function App() {
             <div className="md:w-1/2 my-auto py-12 flex flex-col">
               <div className="flex justify-center space-x-2 -mt-40 px-4 md:mt-0">
                 <div className="flex flex-col space-y-2 self-end w-1/2">
-                  <img src={'./portfolio/images/certificate.png'} alt="certificate" className="h-16 w-20 self-end" />
-                  <img src={'./portfolio/images/whileDesigning.png'} alt="while-designing" className="h-32 w-32 md:h-52 md:w-52 self-end" />
+                  <img src={'./images/certificate.png'} alt="certificate" className="h-16 w-20 self-end" />
+                  <img src={'./images/whileDesigning.png'} alt="while-designing" className="h-32 w-32 md:h-52 md:w-52 self-end" />
                 </div>
-                <img src={'./portfolio/images/journeyProfile.png'} alt="journey-profile" className="h-52 md:h-80 w-1/2 object-cover" />
+                <img src={'./images/journeyProfile.png'} alt="journey-profile" className="h-52 md:h-80 w-1/2 object-cover" />
               </div>
-              <img src={'./portfolio/images/teamImage.png'} alt="team" className="px-4 mt-1 md:self-end object-cover" />
+              <img src={'./images/teamImage.png'} alt="team" className="px-4 mt-1 md:self-end object-cover" />
             </div>
             <div className="md:w-1/2 md:py-12 space-y-6 px-4 md:px-20">
               <p className={`font-playfairDisplay font-medium text-3xl hidden md:block`}>My Design Journey</p>
