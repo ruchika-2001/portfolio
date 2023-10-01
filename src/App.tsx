@@ -5,7 +5,7 @@ function App() {
   return (
     <div className={`font-poppins`}>
       <div className="p-4 flex space-x-4 justify-end items-end">
-        <a href={'https://drive.google.com/file/d/1Inf0C1dqghEuHrF4TlRJnWfFvPA_N3Z4/view?usp=sharing'} target="_blank" rel="noreferrer">
+        <a href={'https://drive.google.com/file/d/13dp0aBFyJuUA8KhlHjigwG-Lb7aF1yO1/view?usp=sharing'} target="_blank" rel="noreferrer">
           Resume
         </a>
         <a href={'https://linkedin.com/in/ruchika-enakhiya-4b5200208/'} target="_blank" rel="noreferrer">
