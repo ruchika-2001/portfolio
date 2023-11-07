@@ -11,7 +11,7 @@ function App() {
         <a href={'https://linkedin.com/in/ruchika-enakhiya-4b5200208/'} target="_blank" rel="noreferrer">
           Contact</a>
       </div>
-      <div className="p-4 my-32 flex flex-col justify-center space-y-6 text-center mx-auto md:w-5/12 md:my-24">
+      <div className="p-4 mt-32 mb-20 flex flex-col justify-center space-y-6 text-center mx-auto md:w-5/12 md:my-24">
         <img src='./images/profile.png' alt="profile" className="h-48 w-48 self-center object-cover" />
         <p className={`font-medium text-3xl font-playfairDisplay md:text-5xl md:font-semibold`}>Hi, I&apos;m Ruchika</p>
         <p className="text-[#5F6B7B] text-medium text-center font-light px-4">
@@ -23,16 +23,16 @@ function App() {
         <div className="-mt-56 p-4 space-y-8 md:flex-row">
           <p className="font-medium text-2xl text-center">FEATURED PROJECTS</p>
           <div className="px-4 md:grid md:grid-cols-3 md:gap-6">
-            <a href={'https://www.notion.so/Redesign-Onboarding-of-Learning-Platform-Mechanism-1b622aa16b9b494f80d95fb279f25ce1'} target="_blank" rel="noreferrer">
-              <div className="my-6 cursor-pointer">
-                <img src={'./images/redesignOnboarding.png'} alt="redesign-onboarding" className="self-center object-cover" />
-                <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Redesign Onboarding for a Learning Platform Mechanism</span> | Scale up the conversion rates in just 6 days</p>
-              </div>
-            </a>
             <a href={'https://www.notion.so/Design-International-Logistics-Web-Application-a2656717d8684d5c9cd88ef0dd5a922b'} target="_blank" rel="noreferrer">
               <div className="my-6 cursor-pointer">
                 <img src={'./images/internationalLogisticsPlatform.png'} alt="redesign-onboarding" className="self-center object-cover" />
                 <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Design International Logistics Platform</span> | Simplifying the bidding process for shippers and forwarders</p>
+              </div>
+            </a>
+            <a href={'https://www.notion.so/Redesign-Onboarding-of-Learning-Platform-Mechanism-1b622aa16b9b494f80d95fb279f25ce1'} target="_blank" rel="noreferrer">
+              <div className="my-6 cursor-pointer">
+                <img src={'./images/redesignOnboarding.png'} alt="redesign-onboarding" className="self-center object-cover" />
+                <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Redesign Onboarding for a Learning Platform Mechanism</span> | Scale up the conversion rates in just 6 days</p>
               </div>
             </a>
             <a href={'https://www.notion.so/Redesign-Website-UX-d675ed13127046ef91160da742a1f75a'} target="_blank" rel="noreferrer">
@@ -57,7 +57,7 @@ function App() {
         </div>
       </div>
 
-      <div className="mt-28">
+      <div className="mt-24">
         <p className={`font-playfairDisplay font-medium text-3xl text-center md:hidden`}>My Design Journey</p>
         <div className="flex flex-col md:flex-row">
           <div className="mt-6 bg-gradient-to-b from-[#C84C06] to-[#F9641A] h-44 w-full md:w-12 md:h-[720px]"></div>
