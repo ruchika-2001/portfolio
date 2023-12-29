@@ -15,14 +15,26 @@ function App() {
         <img src='./images/profile.png' alt="profile" className="h-48 w-48 self-center object-cover" />
         <p className={`font-medium text-3xl font-playfairDisplay md:text-5xl md:font-semibold`}>Hi, I&apos;m Ruchika</p>
         <p className="text-[#5F6B7B] text-medium text-center font-light px-4">
-          <span className="font-medium">Product Designer </span>
-          | Love for learning and designing intuitive, equitable, enjoyable and useful products keeps me going. </p>
+          <span className="font-medium">Graphic, Motion, and Product designer </span>
+          | Love for learning and designing intuitive, equitable, enjoyable and useful ideas keeps me going. </p>
       </div>
       <div className="my-6">
         <img src='./images/curvedLinesForWeb.png' alt="curved-lines" className="w-full h-80" />
         <div className="-mt-56 p-4 space-y-8 md:flex-row">
           <p className="font-medium text-2xl text-center">FEATURED PROJECTS</p>
           <div className="px-4 md:grid md:grid-cols-3 md:gap-6">
+          <a href={'https://www.notion.so/Loud-Eco-Friendly-Branding-37c9b74067d944e88e85202efc7287ba'} target="_blank" rel="noreferrer">
+              <div className="my-6 cursor-pointer md:mt-0">
+                <img src={'./images/loudEcoFriendly.png'} alt="redesign-onboarding" className="self-center object-cover" />
+                <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Loud Eco-Friendly Branding</span> | Creating brand identity for sustainable products through designs </p>
+              </div>
+            </a>
+            <a href={'https://www.notion.so/Creative-Graphics-and-Motions-2937cb4f86cc4c15824c1142e3ecf4a5'} target="_blank" rel="noreferrer">
+              <div className="my-6 cursor-pointer md:mt-0">
+                <img src={'./images/graphicMotionDesign.png'} alt="redesign-onboarding" className="self-center object-cover" />
+                <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Creative Graphic Motion Designs</span> | Create brand awareness through offline campaigns and social media </p>
+              </div>
+            </a>
             <a href={'https://www.notion.so/Design-International-Logistics-Web-Application-a2656717d8684d5c9cd88ef0dd5a922b'} target="_blank" rel="noreferrer">
               <div className="my-6 cursor-pointer">
                 <img src={'./images/internationalLogisticsPlatform.png'} alt="redesign-onboarding" className="self-center object-cover" />
@@ -39,18 +51,6 @@ function App() {
               <div className="my-6 cursor-pointer">
                 <img src={'./images/redesignUX.png'} alt="redesign-onboarding" className="self-center object-cover" />
                 <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Redesign UX of website</span> | To 2x the conversion rates </p>
-              </div>
-            </a>
-            <a href={'https://www.notion.so/Loud-Eco-Friendly-Branding-37c9b74067d944e88e85202efc7287ba'} target="_blank" rel="noreferrer">
-              <div className="my-6 cursor-pointer md:mt-0">
-                <img src={'./images/loudEcoFriendly.png'} alt="redesign-onboarding" className="self-center object-cover" />
-                <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Loud Eco-Friendly Branding</span> | Creating brand identity for sustainable products through designs </p>
-              </div>
-            </a>
-            <a href={'https://www.notion.so/Creative-Graphics-and-Motions-2937cb4f86cc4c15824c1142e3ecf4a5'} target="_blank" rel="noreferrer">
-              <div className="my-6 cursor-pointer md:mt-0">
-                <img src={'./images/graphicMotionDesign.png'} alt="redesign-onboarding" className="self-center object-cover" />
-                <p className="text-[#5F6B7B] px-2 text-medium font-light"><span className="font-medium">Creative Graphic Motion Designs</span> | Create brand awareness through offline campaigns and social media </p>
               </div>
             </a>
           </div>
